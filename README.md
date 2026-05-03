@@ -15,6 +15,7 @@ As a Hybrid entity, the player isn't just a tank with **10,000 HP**—they are a
         *    **Skull with X:** Target exceeds execution threshold.
         *    **Pure Skull:** Target is ready for the end.
     *   **Phase 3 (Blink Execution):** After a 2-second charge, the player teleports behind the opponent, dealing massive, scaled damage.
+*   ![skull Overview](media/gifskullg.gif)
 
 ---
 
@@ -23,6 +24,7 @@ The movement isn't just "WASD". It’s a layered system designed for flow:
 *   **State 1 (Walk):** Precision movement.
 *   **State 2 (Run):** Standard traversal.
 *   **State 3 (Fast Run):** Activated via a **"Tap then Hold"** Shift key mechanic. This requires specific input-buffer logic to differentiate between a tap and a sustained sprint.
+*   ![Running Overview](media/gifunning.gif)
 
 ---
 
@@ -33,6 +35,7 @@ The enemies in this world are relentless. They hunt, they don't just follow.
     *   Once the player is within a specific radius, the AI triggers an **Attack Animation**.
     *   **Hitbox Verification:** Frame-perfect collision system. If the weapon connects, damage logic is applied.
 *   **Death States:** Transition logic where enemies become static corpses upon health depletion.
+*   ![Combat Overview](media/gifbasicsfighting.gif)
 
 ---
 
