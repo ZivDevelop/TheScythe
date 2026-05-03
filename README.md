@@ -15,7 +15,7 @@ As a Hybrid entity, the player isn't just a tank with **10,000 HP**—they are a
         *    **Skull with X:** Target exceeds execution threshold.
         *    **Pure Skull:** Target is ready for the end.
     *   **Phase 3 (Blink Execution):** After a 2-second charge, the player teleports behind the opponent, dealing massive, scaled damage.
-*   ![skull Overview](media/gifskullg.gif)
+*   ![skull Overview](media/gifskull.gif)
 
 ---
 
